@@ -144,11 +144,11 @@ This enables restoring the entire state and applying backward steps even after r
 >> generate 2 2
 >> add 0 0 krum Unemployed 10 10 4
 >> info 0 0 krum
->> step 10
+>> step 4
 >> save testfile
->> step -5
+*RESTART*
 >> load testfile
->> step -5
+>> step -3
 >> info 0 0 krum
 >> exit
 ```
